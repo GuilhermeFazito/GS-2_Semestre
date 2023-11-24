@@ -1,0 +1,54 @@
+*{
+    list-style: none;
+    font-family:'Times New Roman', Times, serif
+}
+
+
+
+
+nav{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: pink;
+    margin-bottom: 40px;
+    
+    
+
+    .menu_logo{
+         
+        .logo_nome{
+            font-size: 40px;
+            
+        }
+        .logo_nome:hover{
+            text-shadow: 1px 0px 20px black;
+        }
+    }
+
+    .menu_geral{
+        font-size: 25px;
+
+
+        .menu_nav{
+            display: flex;
+            
+            
+            li{
+                margin-right: 20px;
+                margin-top: 10px;
+
+                .rotas{
+                    text-decoration: none;
+                    color: black;
+                    
+                }
+                .rotas:hover{
+                    text-shadow: 1px 0px 20px black;
+                }
+                
+            }
+        }
+    }
+}

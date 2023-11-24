@@ -1,0 +1,44 @@
+.login{
+    background-color: pink;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 30%;
+    border-style:inset;
+    border-radius: 15px;
+    padding: 6%;
+    margin-left: 35%;
+    margin-top: 3%;
+    margin-bottom: 5.2%;
+
+    
+
+    .usuario, .senha{
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    input{
+        border-radius: 5px;
+    }
+
+    .confirmacao{
+        width: 50%;
+        border-radius: 5px;
+        
+    }
+
+    .confirmacao:hover{
+        background-color: rgb(2, 225, 255);
+        color: white;
+        transition: 1s;
+    }
+    
+
+
+
+}
+   

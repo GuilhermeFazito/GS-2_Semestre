@@ -1,0 +1,154 @@
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+    
+    
+    
+    
+    .superior{
+        display: flex;
+        
+        
+        
+    
+
+        .geral_esquerdo{
+            display: flex;
+            margin-right: 10%;
+            margin-left: -7% ;
+            
+            
+            
+            
+            
+            
+            .imagem_fila{
+                border-radius: 5px;
+                border-style: inset;
+                border-color: black;
+                
+            }
+
+            .problema_geral{
+                margin-top: 30px;
+                border-style: groove;
+                border-color: black;
+                padding: 30px;
+                border-radius: 5px;
+                background-color: pink;
+
+                .problema{
+                    display: flex;
+                    align-items: center;
+                    border-style: groove;
+                    border-color: black;
+                    padding: 15px;
+                    background-color: whitesmoke;
+                }
+
+                .h2_problema{
+                    display: flex;
+                    text-align: center;
+                }
+
+                .p_problema{
+                    max-width: 500px;
+                    font-size: 22px;
+                    text-align: center;
+                }
+            }
+
+            
+        }
+
+        .geral_direito{
+            
+            .geral_interno_direito{
+                display: flex;
+                flex-direction: column;
+                border-style: groove;
+                border-color: black;
+                padding: 38px;
+                border-radius: 5px;
+                background-color: pink;
+
+                .sobre{
+                    padding: 10px;
+                    border-style: groove;
+                    margin-bottom: 20px;
+                    background-color: whitesmoke;
+                }
+                
+            }
+        }
+    }
+
+    .inferior{
+        margin-right: 40%;
+        margin-left: -7%;
+        margin-top: -53%;
+
+
+        .vantagem{
+            border-style:groove;
+            border-color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 15px;
+            background-color: pink;
+            @media screen and (max-width:1500px) {
+                margin-top: 86%;
+                margin-left: 10%;
+                width: 150%;
+
+            }
+
+            .vantagem_int{
+                display: flex;
+                flex-direction: row;
+                font-size: medium;
+                max-width: 900px;
+                padding: 40px;
+
+
+                .vantagem1{
+                    border-style: groove;
+                    border-color: black;
+                    padding: 8px;
+                    margin-right: 6px;
+                    background-color: whitesmoke;
+                    text-align: center;
+                }
+
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1500px) {
+    .superior{
+        flex-direction: column;
+        align-items: center;
+
+        .imagem_fila{
+            width: 70%;
+            margin-left: 22%;
+        }
+        .problema_geral{
+            margin-left: 15%;
+            margin-bottom: 5%;
+            
+
+            .problema{
+                flex-direction: column;
+                
+            }
+        }
+    }
+    
+}
