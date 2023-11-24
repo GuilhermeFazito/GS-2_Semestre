@@ -5,7 +5,7 @@
   <li> RM551528 - Henrique Lima - 1ESPI </li>
 </ul>
 
-<p> Para ter acesso ao site tera que fazer o login primeiro </p>
+<h3> Para ter acesso ao site tera que fazer o login primeiro </h3>
 
 <p> Usuário: admin </p>
 <p> Senha: 12345 </p>
