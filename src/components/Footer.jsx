@@ -19,6 +19,7 @@ export default function Footer ( ){
                 @2023 - Todos os direitos reservados 
             </p>
             
+            
         </section>
 
         
